@@ -114,7 +114,6 @@ Insert the api token
 ![Start](https://github.com/nacabuta/icinga2/blob/main/Images/6.png)  
 ![Start](https://github.com/nacabuta/icinga2/blob/main/Images/7.png)  
 ![Start](https://github.com/nacabuta/icinga2/blob/main/Images/8.png) 
-Info from ![IcingaDB](https://github.com/nacabuta/icinga2/edit/main/README.md#create-the-icinga2-db-and-user)
 ![Start](https://github.com/nacabuta/icinga2/blob/main/Images/9.png)  
 ![Start](https://github.com/nacabuta/icinga2/blob/main/Images/10.png)  
 ![Start](https://github.com/nacabuta/icinga2/blob/main/Images/11.png)  
