@@ -85,6 +85,11 @@ cat /etc/icinga2/conf.d/api-users.conf
 ```
 > API token for root user
 ```
+icingacli setup config directory --group icingaweb2
+icingacli setup token create
+```
+> Token to be used below in the web section.
+```
 ip a
 reboot
 ```
@@ -93,6 +98,12 @@ Access the web part of the setup.
       http://<server ip>/icingaweb2/setup
       http://<server hostname>/icingaweb2/setup
       http://<server fqdn>/icingaweb2/setup
+
+Insert the api token
+![Start](https://github.com/nacabuta/icinga2/blob/main/Images/1.png)  
+![Start](https://github.com/nacabuta/icinga2/blob/main/Images/2.png)  
+![Start](https://github.com/nacabuta/icinga2/blob/main/Images/3.png)  
+
 
 
 
