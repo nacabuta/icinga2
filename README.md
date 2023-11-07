@@ -115,6 +115,7 @@ Insert the api token
 ![Start](https://github.com/nacabuta/icinga2/blob/main/Images/13.png)  
 ![Start](https://github.com/nacabuta/icinga2/blob/main/Images/14.png)  
 ![Start](https://github.com/nacabuta/icinga2/blob/main/Images/15.png)  
+Create new resource
 ![Start](https://github.com/nacabuta/icinga2/blob/main/Images/16.png)  
 ![Start](https://github.com/nacabuta/icinga2/blob/main/Images/17.png)  
 ![Start](https://github.com/nacabuta/icinga2/blob/main/Images/18.png)  
