@@ -1,7 +1,6 @@
 # icinga2
 Icinga2 installation on Debian 12. Clean installation only set a static IP.  
 
-  
 Install some tools
 ```
 su -
@@ -37,7 +36,7 @@ systemctl restart icingadb-redis
 apt install mariadb-server -y 
 mysql_secure_installation
 ```
-Create the icinga2 db and user
+#### Create the icinga2 db and user
 ```
 mysql -u root -p
 CREATE DATABASE icingadb;
