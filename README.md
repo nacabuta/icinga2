@@ -29,8 +29,8 @@ apt install monitoring-plugins -y
 icinga2 api setup
 systemctl restart icinga2
 apt install icingadb
-icinga2 feature enable icingadb <---
-systemctl restart icinga2 <---
+icinga2 feature enable icingadb
+systemctl restart icinga2
 apt install icingadb-redis -y 
 systemctl enable --now icingadb-redis-server
 systemctl restart icingadb-redis 
