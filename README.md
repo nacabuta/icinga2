@@ -45,10 +45,17 @@ CREATE USER 'icingadb'@'localhost' IDENTIFIED BY 'CHANGEME';
 GRANT ALL ON icingadb.* TO 'icingadb'@'localhost';
 QUIT;
 ```
+> (nano /etc/icingadb/config.yml to change icingadb password)
 ```
 mysql -u root -p icingadb </usr/share/icingadb/schema/mysql/schema.sql
 ```
-> (nano /etc/icingadb/config.yml to change icingadb password)
+Create the director db and user
+```
+mysql -e "CREATE DATABASE director CHARACTER SET 'utf8';
+CREATE USER director@localhost IDENTIFIED BY 'CHANGEME';
+GRANT ALL ON director.* TO director@localhost;"
+```
+
 ```
 systemctl enable --now icingadb
 systemctl restart icingadb
